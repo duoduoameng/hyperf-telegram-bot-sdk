@@ -1,5 +1,5 @@
 {
-    "name": "duoduoameng/hyperf-telegram-bot-sdk",
+    "name": "duoduos/hyperf-telegram-bot-sdk",
     "description": "Telegram 机器人 API SDK",
     "keywords": ["telegram", "telegram bot", "telegram bot api", "telegram sdk", "telegram php", "hyperf"],
     "type": "library",
