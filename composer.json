@@ -6,7 +6,7 @@
     "homepage": "",
     "autoload": {
         "psr-4": {
-            "Ll\\": "src/"
+            "Telegram\\Bot\\": "src/"
         }
     },
     "autoload-dev": {
