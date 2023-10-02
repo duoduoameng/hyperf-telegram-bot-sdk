@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace Telegram\Bot\Commands;
 
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
+use Hyperf\Collection\Collection;
+use Hyperf\Stringable\Str;
 use InvalidArgumentException;
 use Telegram\Bot\Answers\AnswerBus;
 use Telegram\Bot\Api;

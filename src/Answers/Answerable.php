@@ -3,7 +3,7 @@
 namespace Telegram\Bot\Answers;
 
 use BadMethodCallException;
-use Illuminate\Support\Str;
+use Hyperf\Stringable\Str;
 use Telegram\Bot\Objects\Update;
 use Telegram\Bot\Traits\Telegram;
 

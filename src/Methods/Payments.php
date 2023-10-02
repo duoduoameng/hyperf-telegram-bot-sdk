@@ -2,7 +2,7 @@
 
 namespace Telegram\Bot\Methods;
 
-use Illuminate\Support\Arr;
+use Hyperf\Collection\Arr;
 use Telegram\Bot\Exceptions\TelegramSDKException;
 use Telegram\Bot\Objects\Message;
 use Telegram\Bot\Traits\Http;

@@ -2,10 +2,8 @@
 
 namespace Telegram\Bot\Objects;
 
-use Illuminate\Support\Collection;
-use Illuminate\Support\Enumerable;
-use Illuminate\Support\Str;
-use Illuminate\Support\Traits\EnumeratesValues;
+use Hyperf\Collection\Collection;
+use Hyperf\Stringable\Str;
 use InvalidArgumentException;
 
 /**
@@ -88,7 +86,7 @@ abstract class BaseObject extends Collection
     abstract public function relations(): array;
 
     /**
-     * @return array|Enumerable|EnumeratesValues|BaseObject
+     * @return array|BaseObject
      */
     protected function getRelationValue(string $relativeName, iterable $relativeData): mixed
     {

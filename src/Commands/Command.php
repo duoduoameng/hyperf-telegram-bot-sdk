@@ -2,7 +2,7 @@
 
 namespace Telegram\Bot\Commands;
 
-use Illuminate\Support\Collection;
+use Hyperf\Collection\Collection;
 use Telegram\Bot\Answers\Answerable;
 use Telegram\Bot\Api;
 use Telegram\Bot\Objects\MessageEntity;

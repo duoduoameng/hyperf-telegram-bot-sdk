@@ -3,7 +3,7 @@
 namespace Telegram\Bot;
 
 use BadMethodCallException;
-use Illuminate\Support\Traits\Macroable;
+use Hyperf\Macroable\Macroable;
 use Telegram\Bot\Commands\CommandBus;
 use Telegram\Bot\Events\HasEventDispatcher;
 use Telegram\Bot\Exceptions\TelegramSDKException;

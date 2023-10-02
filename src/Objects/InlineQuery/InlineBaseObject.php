@@ -3,8 +3,9 @@
 namespace Telegram\Bot\Objects\InlineQuery;
 
 use BadMethodCallException;
-use Illuminate\Support\Collection;
-use Illuminate\Support\Str;
+use Hyperf\Collection\Collection;
+use Hyperf\Stringable\Str;
+
 
 /**
  * Class InlineBaseObject.

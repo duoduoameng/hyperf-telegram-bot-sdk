@@ -3,7 +3,6 @@
     "description": "Telegram 机器人 API SDK",
     "keywords": ["telegram", "telegram bot", "telegram bot api", "telegram sdk", "telegram php", "hyperf"],
     "type": "library",
-    "homepage": "",
     "autoload": {
         "psr-4": {
             "Telegram\\Bot\\": "src/"
@@ -17,9 +16,9 @@
     "require": {
         "php": ">=8.0",
         "ext-json": "*",
-        "hyperf/guzzle": "~3.0.0",
         "guzzlehttp/psr7": "^2.5",
-        "illuminate/support": "9 - 10",
+        "hyperf/guzzle": "~3.0.0",
+        "hyperf/support": "~3.0.0",
         "league/event": "^2.2 || ^3.0",
         "psr/container": "^2.0",
         "psr/event-dispatcher": "^1.0"

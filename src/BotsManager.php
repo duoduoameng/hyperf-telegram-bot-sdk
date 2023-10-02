@@ -2,7 +2,7 @@
 
 namespace Telegram\Bot;
 
-use Illuminate\Support\Arr;
+use Hyperf\Collection\Arr;
 use Psr\Container\ContainerInterface;
 use Telegram\Bot\Commands\CommandInterface;
 use Telegram\Bot\Exceptions\TelegramBotNotFoundException;
